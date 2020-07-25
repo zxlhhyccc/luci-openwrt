@@ -40,7 +40,7 @@ return baseclass.extend({
 		var boardinfo   = data[0],
 		    systeminfo  = data[1],
 		    cpubench    = data[2],
-		    cpuusage    = data[3];
+		    cpuusage    = data[3],
 		    luciversion = data[4];
 
 		luciversion = luciversion.filter(function(l) {
