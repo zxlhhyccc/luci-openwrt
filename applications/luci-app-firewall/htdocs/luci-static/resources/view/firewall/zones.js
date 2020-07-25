@@ -56,6 +56,7 @@ return view.extend({
 		};
 
 		o = s.option(form.Flag, 'drop_invalid', _('Drop invalid packets'));
+		o = s.option(form.Flag, 'fullcone', _('Enable FullCone NAT'));
 
 		var p = [
 			s.option(form.ListValue, 'input', _('Input')),
@@ -70,7 +71,7 @@ return view.extend({
 		}
 
 		/* Netfilter flow offload support */
-/*
+
 		if (L.hasSystemFeature('offloading')) {
 			s = m.section(form.TypedSection, 'defaults', _('Routing/NAT Offloading'),
 				_('Experimental feature. Not fully compatible with QoS/SQM.'));
@@ -89,7 +90,7 @@ return view.extend({
 			o.optional = true;
 			o.depends('flow_offloading', '1');
 		}
-*/
+
 
 		s = m.section(form.GridSection, 'zone', _('Zones'));
 		s.addremove = true;
