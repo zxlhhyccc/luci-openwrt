@@ -40,16 +40,14 @@ return baseclass.extend({
 		var boardinfo   = data[0],
 		    systeminfo  = data[1],
 		    cpubench    = data[2],
-		    cpuusage    = data[3]; //,
-//		    luciversion = data[4];
+		    cpuusage    = data[3];
+		    luciversion = data[4];
 
-/*
 		luciversion = luciversion.filter(function(l) {
 			return l.match(/^\s*(luciname|luciversion)\s*=/);
 		}).map(function(l) {
 			return l.replace(/^\s*\w+\s*=\s*['"]([^'"]+)['"].*$/, '$1');
 		}).join(' ');
-*/
 
 		var datestr = null;
 
