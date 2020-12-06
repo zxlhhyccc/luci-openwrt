@@ -1,16 +1,16 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-10-02 14:41+0000\n"
-"Last-Translator: Mehmet Çetin <excom_zkko@hotmail.com>\n"
+"PO-Revision-Date: 2020-11-29 07:51+0000\n"
+"Last-Translator: Ataberk Özen <ataberkozen123@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsadblock/tr/>\n"
 "Language: tr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3-dev\n"
+"X-Generator: Weblate 4.4-dev\n"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:257
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:258
 msgid "Action"
 msgstr "Eylem"
 
@@ -68,7 +68,7 @@ msgstr "Gelişmiş E-Posta Ayarları"
 msgid "Advanced Report Settings"
 msgstr "Gelişmiş Rapor Ayarları"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:256
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:257
 msgid "Answer"
 msgstr "Cevap"
 
@@ -97,11 +97,15 @@ msgstr ""
 "Kara liste değişiklikleri kaydedildi. Değişikliklerin etkili olması için "
 "reklam engelleme listelerinizi yenileyin."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:281
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:282
 msgid "Blacklist..."
 msgstr "Kara liste..."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:210
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:310
+msgid "Blocked DNS Requests"
+msgstr "Engellenen DNS İstekleri"
+
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:211
 msgid "Blocked Domain"
 msgstr "Engellenmiş Alan Adı"
 
@@ -117,7 +121,7 @@ msgstr "Engelleme Listesi Yedekleme"
 msgid "Blocklist Query"
 msgstr "Engelleme Listesi Sorgusu"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:317
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:318
 msgid "Blocklist Query..."
 msgstr "Engelleme Listesi Sorgusu..."
 
@@ -138,8 +142,8 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:22
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:57
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:108
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:162
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:109
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:163
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:59
 msgid "Cancel"
 msgstr "İptal"
@@ -152,7 +156,7 @@ msgstr ""
 "Bu sekmedeki değişikliklerin yürürlüğe girmesi için reklam engelleme "
 "hizmetinin yeniden başlatılması gerekir.<br /><p>&#xa0;</p>"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:254
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:255
 msgid "Client"
 msgstr "İstemci"
 
@@ -169,9 +173,9 @@ msgstr ""
 "README.md\" target=\"_blank\" rel=\"noreferrer noopener\" > çevrimiçi "
 "belgelere </a> bakın."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:205
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:207
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:209
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:206
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:208
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:210
 msgid "Count"
 msgstr "Adet"
 
@@ -202,19 +206,11 @@ msgstr "DNS Dosya Sıfırlama"
 msgid "DNS Report"
 msgstr "DNS Raporu"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:309
-msgid "DNS Requests (blocked)"
-msgstr "DNS İstekleri (engellenmiş)"
-
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:306
-msgid "DNS Requests (total)"
-msgstr "DNS İstekleri (toplam)"
-
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:396
 msgid "DNS Restart Timeout"
 msgstr "DNS Yeniden Başlatma Zaman Aşımı"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:252
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:253
 msgid "Date"
 msgstr "Tarih"
 
@@ -238,8 +234,8 @@ msgstr ""
 msgid "Disable selective DNS whitelisting (RPZ pass through)."
 msgstr "Seçilebilir DNS beyaz listesini (RPZ geçişi) devre dışı bırakın."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:208
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:255
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:209
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:256
 msgid "Domain"
 msgstr "Alan"
 
@@ -249,105 +245,112 @@ msgstr "İndirme Parametreleri"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:346
 msgid "Download Queue"
-msgstr ""
+msgstr "İndirme Kuyruğu"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:370
 msgid "Download Utility"
-msgstr ""
+msgstr "İndirme Aracı"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:321
 msgid "E-Mail Notification"
-msgstr ""
+msgstr "E-Mail Bildirimi"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:471
 msgid "E-Mail Notification Count"
-msgstr ""
+msgstr "E-Mail Bildirim Sayısı"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:467
 msgid "E-Mail Profile"
-msgstr ""
+msgstr "E-Mail Profili"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:325
 msgid "E-Mail Receiver Address"
-msgstr ""
+msgstr "E-Mail Alıcı Adresi"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:459
 msgid "E-Mail Sender Address"
-msgstr ""
+msgstr "E-Mail Gönderen Adresi"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:463
 msgid "E-Mail Topic"
-msgstr ""
+msgstr "E-Mail Konusu"
 
 #: applications/luci-app-adblock/luasrc/controller/adblock.lua:9
 #: applications/luci-app-adblock/root/usr/share/luci/menu.d/luci-app-adblock.json:35
 msgid "Edit Blacklist"
-msgstr ""
+msgstr "Karalisteyi Düzenle"
 
 #: applications/luci-app-adblock/luasrc/controller/adblock.lua:10
 #: applications/luci-app-adblock/root/usr/share/luci/menu.d/luci-app-adblock.json:43
 msgid "Edit Whitelist"
-msgstr ""
+msgstr "Beyazlisteyi Düzenle"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:301
 msgid "Enable SafeSearch"
-msgstr ""
+msgstr "GüvenliArama'yı Etkinleştir"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:313
 msgid "Enable moderate SafeSearch filters for youtube."
-msgstr ""
+msgstr "Youtube için hafif GüvenliArama'yı etkinleştir."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:284
 msgid "Enable the adblock service."
-msgstr ""
+msgstr "Adblock servisini etkinleştir."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:333
 msgid "Enable verbose debug logging in case of any processing errors."
 msgstr ""
+"Herhangi bir işleme hatası durumunda ayrıntılı hata ayıklama günlüğünü "
+"etkinleştir."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:284
 msgid "Enabled"
 msgstr "Etkin"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:303
-msgid "End Date"
-msgstr ""
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:304
+msgid "End Timestamp"
+msgstr "Zaman damgasını bitir"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:301
 msgid ""
 "Enforcing SafeSearch for google, bing, duckduckgo, yandex, youtube and "
 "pixabay."
 msgstr ""
+"Google, bing, duckduckgo, yandex, youtube ve pixabay için GüvenliArama "
+"uygulanıyor."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:18
 msgid "Existing job(s)"
-msgstr ""
+msgstr "Mevcut iş(ler)"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:401
 msgid "External DNS Lookup Domain"
-msgstr ""
+msgstr "Harici DNS Arama Alanı"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:401
 msgid ""
 "External domain to check for a successful DNS backend restart. Please note: "
 "To disable this check set this option to 'false'."
 msgstr ""
+"DNS arkaucunun başarılı şekilde yeniden başlatıldığını kontrol eden harici "
+"alan. Lütfen dikkat: Bu kontrolü devre dışı bırakmak için 'false' olarak "
+"ayarlayın."
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:156
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:157
 msgid "Filter criteria like date, domain or client (optional)"
-msgstr ""
+msgstr "Tarih, alan, client gibi filtre özellikleri (opsiyonel)"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:410
 msgid "Flush DNS Cache"
-msgstr ""
+msgstr "DNS Önbelleğini Temizle"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:410
 msgid "Flush the DNS Cache before adblock processing as well."
-msgstr ""
+msgstr "Adblock işleminden önce de DNS Önbelleğini temizle."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:293
 msgid "Force Local DNS"
-msgstr ""
+msgstr "Yerel DNS zorla"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:317
 msgid ""
@@ -355,6 +358,10 @@ msgid ""
 "demand. Please note: this needs additional 'tcpdump-mini' package "
 "installation and a full adblock service restart to take effect."
 msgstr ""
+"DNS ile ilgili ağ trafiğini tcpdump aracılığıyla toplayın ve talep üzerine "
+"bir DNS Raporu oluşturun. Lütfen dikkat: etkili olması için ek olarak "
+"'tcpdump-mini' paket kurulumuna ve adblock hizmetinin tamamen yeniden "
+"başlatılması gerekir."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:268
 msgid "General Settings"
@@ -362,7 +369,7 @@ msgstr "Genel Ayarlar"
 
 #: applications/luci-app-adblock/root/usr/share/rpcd/acl.d/luci-app-adblock.json:3
 msgid "Grant access to LuCI app adblock"
-msgstr ""
+msgstr "LuCI uygulaması adblock'a izin verin"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:208
 msgid "Information"
@@ -376,7 +383,7 @@ msgstr ""
 msgid "Last Run"
 msgstr ""
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:336
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:337
 msgid "Latest DNS Requests"
 msgstr ""
 
@@ -433,11 +440,11 @@ msgstr ""
 msgid "Low Priority Service"
 msgstr ""
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:206
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:207
 msgid "Name / IP Address"
 msgstr ""
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:123
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:124
 msgid "No Query results!"
 msgstr ""
 
@@ -454,7 +461,7 @@ msgstr "Genel bakış"
 msgid "Profile used by 'msmtp' for adblock notification E-Mails."
 msgstr ""
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:131
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:132
 msgid "Query"
 msgstr ""
 
@@ -485,12 +492,12 @@ msgid ""
 "service restart to take effect."
 msgstr ""
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:183
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:184
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:257
 msgid "Refresh"
 msgstr ""
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:138
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:139
 msgid "Refresh DNS Report"
 msgstr ""
 
@@ -502,7 +509,7 @@ msgstr ""
 msgid "Refresh Timer..."
 msgstr ""
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:324
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:325
 msgid "Refresh..."
 msgstr ""
 
@@ -545,7 +552,7 @@ msgid ""
 "background."
 msgstr ""
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:95
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:96
 msgid "Result"
 msgstr ""
 
@@ -613,8 +620,8 @@ msgstr ""
 msgid "Special config options for the selected download utility."
 msgstr ""
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:300
-msgid "Start Date"
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:301
+msgid "Start Timestamp"
 msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:287
@@ -687,13 +694,13 @@ msgid ""
 "'#' are allowed - ip addresses, wildcards and regex are not."
 msgstr ""
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:297
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:298
 msgid ""
 "This shows the last generated DNS Report, press the refresh button to get a "
 "current one."
 msgstr ""
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:253
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:254
 msgid "Time"
 msgstr ""
 
@@ -707,12 +714,16 @@ msgid ""
 "job for these lists."
 msgstr ""
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:329
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:330
 msgid "Top 10 Statistics"
 msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:463
 msgid "Topic for adblock notification E-Mails."
+msgstr ""
+
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:307
+msgid "Total DNS Requests"
 msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:341
@@ -735,7 +746,7 @@ msgid ""
 "take effect."
 msgstr ""
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:273
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:274
 msgid "Whitelist..."
 msgstr ""
 
@@ -747,7 +758,7 @@ msgstr ""
 msgid "kresd (/etc/kresd)"
 msgstr ""
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:149
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:150
 msgid "max. result set size"
 msgstr ""
 
@@ -762,6 +773,12 @@ msgstr ""
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:386
 msgid "unbound (/var/lib/unbound)"
 msgstr ""
+
+#~ msgid "DNS Requests (blocked)"
+#~ msgstr "DNS İstekleri (engellenmiş)"
+
+#~ msgid "DNS Requests (total)"
+#~ msgstr "DNS İstekleri (toplam)"
 
 #~ msgid ""
 #~ "<b>Caution:</b> To prevent OOM exceptions on low memory devices with less "

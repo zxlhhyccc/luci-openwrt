@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-01-14 15:23+0000\n"
-"Last-Translator: Franco Castillo <castillofrancodamian@gmail.com>\n"
+"PO-Revision-Date: 2020-12-01 16:16+0000\n"
+"Last-Translator: Marios Koutsoukis <marioskoutsoukis2006@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsmwan3/el/>\n"
 "Language: el\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11-dev\n"
+"X-Generator: Weblate 4.4-dev\n"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:176
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:192
@@ -206,6 +206,14 @@ msgstr ""
 msgid "Failure interval"
 msgstr ""
 
+#: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:108
+msgid "Failure latency [ms]"
+msgstr ""
+
+#: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:120
+msgid "Failure packet loss [%]"
+msgstr ""
+
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/globalsconfig.lua:24
 msgid "Firewall loglevel"
 msgstr ""
@@ -254,7 +262,7 @@ msgstr "IPv4"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/ruleconfig.lua:23
 msgid "IPv4 and IPv6"
-msgstr ""
+msgstr "IPv4 και IPv6"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/ruleconfig.lua:24
 msgid "IPv4 only"
@@ -303,7 +311,7 @@ msgstr ""
 
 #: applications/luci-app-mwan3/luasrc/controller/mwan3.lua:48
 msgid "Interfaces"
-msgstr ""
+msgstr "Διεπαφές"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:32
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/ruleconfig.lua:21
@@ -404,14 +412,6 @@ msgstr ""
 msgid "Max TTL"
 msgstr ""
 
-#: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:108
-msgid "Max packet latency [ms]"
-msgstr ""
-
-#: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:120
-msgid "Max packet loss [%]"
-msgstr ""
-
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/ruleconfig.lua:32
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/ruleconfig.lua:41
 msgid ""
@@ -447,14 +447,6 @@ msgstr ""
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/member.lua:33
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/memberconfig.lua:25
 msgid "Metric"
-msgstr ""
-
-#: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:129
-msgid "Min packet latency [ms]"
-msgstr ""
-
-#: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:141
-msgid "Min packet loss [%]"
 msgstr ""
 
 #: applications/luci-app-mwan3/luasrc/controller/mwan3.lua:190
@@ -571,6 +563,14 @@ msgstr ""
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:198
 msgid "Recovery interval"
+msgstr ""
+
+#: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:129
+msgid "Recovery latency [ms]"
+msgstr ""
+
+#: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:141
+msgid "Recovery packet loss [%]"
 msgstr ""
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/globalsconfig.lua:40
