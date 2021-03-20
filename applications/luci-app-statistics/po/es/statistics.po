@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-06-10 03:41+0200\n"
-"PO-Revision-Date: 2020-12-13 19:21+0000\n"
-"Last-Translator: Franco Castillo <castillofrancodamian@gmail.com>\n"
+"PO-Revision-Date: 2021-02-26 19:55+0000\n"
+"Last-Translator: MS-PC <MSPCtranslator@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsstatistics/es/>\n"
 "Language: es\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.5\n"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/apcups.js:7
 #: applications/luci-app-statistics/root/usr/share/luci/statistics/plugins/apcups.json:2
@@ -57,13 +57,14 @@ msgstr "Aplicar intervalo »"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/email.js:47
 msgid "Awaiting email input at %s"
-msgstr "En espera de entrada de correo electrónico en %s"
+msgstr "Esperando entrada de correo electrónico en %s"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/collectd.js:59
 msgid "Base Directory"
 msgstr "Directorio de base"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/netlink.js:16
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/snmp6.js:16
 msgid "Basic monitoring"
 msgstr "Monitorización básica"
 
@@ -117,6 +118,19 @@ msgstr "Cadena"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/unixsock.js:19
 msgid "Change the ownership of the socket file to the specified group."
 msgstr "Cambia la propiedad del archivo de socket al grupo especificado."
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/chrony.js:8
+#: applications/luci-app-statistics/root/usr/share/luci/statistics/plugins/chrony.json:2
+msgid "Chrony"
+msgstr "Chrony"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/chrony.js:6
+msgid "Chrony Plugin Configuration"
+msgstr "Configuración del complemento Chrony"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/chrony.js:32
+msgid "Chrony monitoring enabled"
+msgstr "Monitoreo de Chrony activado"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/olsrd.js:21
 msgid "CollectLinks"
@@ -183,15 +197,15 @@ msgstr "Configuración del complemento DF"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/dhcpleases.js:7
 msgid "DHCP Leases"
-msgstr "Arrendamientos DHCP"
+msgstr "Asignaciones DHCP"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/dhcpleases.js:6
 msgid "DHCP Leases Plugin Configuration"
-msgstr "Configuración del complemento de arrendamientos DHCP"
+msgstr "Configuración del complemento de asignaciones DHCP"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/dhcpleases.js:14
 msgid "DHCP leases file"
-msgstr "Archivo de arrendamientos DHCP"
+msgstr "Archivo de asignaciones DHCP"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/dns.js:10
 #: applications/luci-app-statistics/root/usr/share/luci/statistics/plugins/dns.json:2
@@ -277,6 +291,7 @@ msgid "Enable statistics"
 msgstr "Activar estadísticas"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/apcups.js:12
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/chrony.js:12
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/cpu.js:12
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/cpufreq.js:12
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/csv.js:12
@@ -301,6 +316,7 @@ msgstr "Activar estadísticas"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/processes.js:12
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/rrdtool.js:12
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/sensors.js:21
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/snmp6.js:13
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/syslog.js:12
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/tcpconns.js:12
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/thermal.js:13
@@ -447,6 +463,10 @@ msgstr ""
 msgid "Host"
 msgstr "Host"
 
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/chrony.js:14
+msgid "Host running chrony"
+msgstr "Host ejecutando Chrony"
+
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/collectd.js:51
 msgid "Hostname"
 msgstr "Nombre del host"
@@ -454,6 +474,19 @@ msgstr "Nombre del host"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/olsrd.js:15
 msgid "IP or hostname where to get the txtinfo output from"
 msgstr "IP o nombre de máquina desde la que obtener la salida de txtinfo"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/ipstatistics.js:7
+#: applications/luci-app-statistics/root/usr/share/luci/statistics/plugins/ipstatistics.json:2
+msgid "IP-Statistics"
+msgstr "Estadísticas de IP"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/ipstatistics.js:7
+msgid "IP-Statistics Plugin Configuration"
+msgstr "Configuración del complemento de estadísticas de IP"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/ipstatistics.js:11
+msgid "IPv4/IPv6 Statistics monitoring enabled"
+msgstr "Supervisión de estadísticas IPv4/IPv6 activada"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/irq.js:7
 msgid "IRQ Plugin Configuration"
@@ -499,9 +532,9 @@ msgid ""
 "Allowed timespan types: min, h, hour(s), d, day(s), w, week(s), m, month(s), "
 "y, year(s)"
 msgstr ""
-"Lista de períodos de tiempo que se almacenarán en la base de datos RRD. "
-"P.ej. \"1hour 1day 14day\". Tipos de intervalos de tiempo permitidos: min, "
-"h, hour(s), d, day(s), w, week(s), m, month(s), y, year(s)"
+"Lista de períodos de tiempo que se almacenarán en la base de datos RRD. P."
+"ej. \"1hour 1day 14day\". Tipos de intervalos de tiempo permitidos: min, h, "
+"hour(s), d, day(s), w, week(s), m, month(s), y, year(s)"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/network.js:40
 msgid "Listen host"
@@ -576,6 +609,7 @@ msgstr "Monitoreo de memoria activado"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/iwinfo.js:25
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/netlink.js:41
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/sensors.js:47
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/snmp6.js:21
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/thermal.js:34
 msgid "Monitor all except specified"
 msgstr "Monitorizar todos menos los especificados"
@@ -650,7 +684,7 @@ msgstr[1] "Supervisión de UPS de APC en hosts %s, puerto %d"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/dhcpleases.js:19
 msgid "Monitoring DHCP leases enabled"
-msgstr "Monitoreo de concesiones DHCP activado"
+msgstr "Monitoreo de asignaciones DHCP activado"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/dns.js:32
 msgid "Monitoring DNS queries on all interfaces"
@@ -675,6 +709,7 @@ msgstr[1] "Monitoreo de todos los discos excepto %d"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/interface.js:32
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/iwinfo.js:36
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/netlink.js:54
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/snmp6.js:33
 msgid "Monitoring all but one interface"
 msgid_plural "Monitoring all but %d interfaces"
 msgstr[0] "Monitoreo de todas las interfaces menos una"
@@ -703,6 +738,7 @@ msgstr "Monitoreo de todos excepto %s, %s, %s"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/interface.js:30
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/iwinfo.js:34
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/netlink.js:52
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/snmp6.js:31
 msgid "Monitoring all interfaces"
 msgstr "Monitorear todas las interfaces"
 
@@ -757,6 +793,7 @@ msgstr[1] "Monitorear %d hosts"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/interface.js:34
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/iwinfo.js:38
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/netlink.js:56
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/snmp6.js:35
 msgid "Monitoring one interface"
 msgid_plural "Monitoring %d interfaces"
 msgstr[0] "Monitoreo de una interfaz"
@@ -782,7 +819,7 @@ msgstr[1] "Monitoreo de %d sensores"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/splash_leases.js:10
 msgid "Monitoring splash leases"
-msgstr "Monitoreo de arrendamientos de splash"
+msgstr "Monitoreo de splash leases"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/thermal.js:47
 msgid "Monitoring thermal zones %s"
@@ -874,7 +911,7 @@ msgstr "Plugins de salida"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/graphs.js:60
 msgid "Overview"
-msgstr "Visión general"
+msgstr "Vista general"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/memory.js:18
 msgid "Percent values"
@@ -900,6 +937,14 @@ msgstr "Puerto"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/apcups.js:19
 msgid "Port for apcupsd communication"
 msgstr "Puerto para comunicación apcupsd"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/chrony.js:20
+msgid "Port for chronyd"
+msgstr "Puerto para chronyd"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/chrony.js:15
+msgid "Possibly bug in collectd. Only 127.0.0.1 and localhost work"
+msgstr "Posiblemente error en collectd. Solo 127.0.0.1 y localhost funcionan"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/processes.js:7
 #: applications/luci-app-statistics/root/usr/share/luci/statistics/plugins/processes.json:2
@@ -963,6 +1008,14 @@ msgstr "Filas por RRA"
 msgid "Rule monitoring enabled"
 msgstr "Monitoreo de reglas activado"
 
+#: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/snmp6.js:7
+msgid "SNMP6"
+msgstr "SNMP6"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/snmp6.js:7
+msgid "SNMP6 Plugin Configuration"
+msgstr "Configuración del complemento SNMP6"
+
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/sqm.js:7
 msgid "SQM"
 msgstr "SQM"
@@ -977,6 +1030,7 @@ msgid "Script"
 msgstr "Script"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/collectd.js:74
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/chrony.js:25
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/ping.js:31
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/rrdtool.js:19
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/rrdtool.js:24
@@ -1042,6 +1096,10 @@ msgstr "Mostrar valores máximos en lugar de promedios"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/cpufreq.js:23
 msgid "Simple CPU frequency monitoring enabled"
 msgstr "Monitoreo de frecuencia de CPU simple activado"
+
+#: applications/luci-app-statistics/root/usr/share/luci/statistics/plugins/snmp6.json:2
+msgid "Snmp6"
+msgstr "Snmp6"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/unixsock.js:34
 msgid "Socket %s active"
@@ -1191,6 +1249,11 @@ msgstr ""
 msgid "The chain name must not contain spaces"
 msgstr "El nombre de la cadena no debe contener espacios"
 
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/chrony.js:7
+msgid "The chrony plugin will monitor chrony NTP server statistics"
+msgstr ""
+"El complemento chrony monitoreará las estadísticas del servidor NTP de chrony"
+
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/iptables.js:153
 msgid "The comment to match must not contain spaces"
 msgstr "El comentario para que coincida no debe contener espacios"
@@ -1228,8 +1291,7 @@ msgstr ""
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/dhcpleases.js:7
 msgid "The dhcpleases plugin collects information about assigned DHCP leases."
 msgstr ""
-"El complemento dhcpleases recopila información sobre las concesiones DHCP "
-"asignadas."
+"El complemento dhcpleases recopila información sobre las asignaciones DHCP."
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/disk.js:8
 msgid ""
@@ -1283,6 +1345,13 @@ msgid ""
 msgstr ""
 "El complemento de interfaz recoge estadísticas de tráfico en las interfaces "
 "seleccionadas."
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/ipstatistics.js:8
+msgid ""
+"The ipstatistics plugin collects IPv4 and IPv6 statistics to compare them."
+msgstr ""
+"El complemento ipstatistics recopila estadísticas de IPv4 e IPv6 para "
+"compararlas."
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/iptables.js:9
 msgid ""
@@ -1374,13 +1443,19 @@ msgstr ""
 "El plugin \"sensors\" usa el marco de trabajo de sensores de Linux para "
 "recopilar estadísticas ambientales."
 
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/snmp6.js:8
+msgid "The snmp6 plugin collects IPv6 statistics for selected interfaces."
+msgstr ""
+"El complemento snmp6 recopila estadísticas de IPv6 para las interfaces "
+"seleccionadas."
+
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/splash_leases.js:7
 msgid ""
 "The splash leases plugin uses libuci to collect statistics about splash "
 "leases."
 msgstr ""
-"El plugin \"splash leases\" usa libuci para recopilar estadísticas sobre los "
-"arrendamientos de salpicaduras."
+"El complemento \"splash leases\" usa libuci para recopilar estadísticas "
+"sobre los arrendamientos de salpicaduras."
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/tcpconns.js:7
 msgid ""
@@ -1453,6 +1528,10 @@ msgid ""
 msgstr ""
 "Esta sección define a qué servidores se envían los datos recolectados "
 "localmente."
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/chrony.js:25
+msgid "Timeout for polling chrony"
+msgstr "Tiempo de espera para la votación chrony"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/collectd.js:80
 msgid "Try to lookup fully qualified hostname"

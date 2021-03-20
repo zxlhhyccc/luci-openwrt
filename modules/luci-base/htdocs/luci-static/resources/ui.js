@@ -610,6 +610,22 @@ var UICheckbox = UIElement.extend(/** @lends LuCI.ui.Checkbox.prototype */ {
 
 		frameEl.appendChild(E('label', { 'for': id }));
 
+		if (this.options.tooltip != null) {
+			var icon = "⚠️";
+
+			if (this.options.tooltipicon != null)
+				icon = this.options.tooltipicon;
+
+			frameEl.appendChild(
+				E('label', { 'class': 'cbi-tooltip-container' },[
+					icon,
+					E('div', { 'class': 'cbi-tooltip' },
+						this.options.tooltip
+					)
+				])
+			);
+		}
+
 		return this.bind(frameEl);
 	},
 
@@ -1344,6 +1360,8 @@ var UIDropdown = UIElement.extend(/** @lends LuCI.ui.Dropdown.prototype */ {
 
 	/** @private */
 	toggleItem: function(sb, li, force_state) {
+		var ul = li.parentNode;
+
 		if (li.hasAttribute('unselectable'))
 			return;
 
@@ -1420,7 +1438,7 @@ var UIDropdown = UIElement.extend(/** @lends LuCI.ui.Dropdown.prototype */ {
 			this.closeDropdown(sb, true);
 		}
 
-		this.saveValues(sb, li.parentNode);
+		this.saveValues(sb, ul);
 	},
 
 	/** @private */
@@ -3597,9 +3615,11 @@ var UI = baseclass.extend(/** @lends LuCI.ui.prototype */ {
 				this.setActiveTabId(panes[selected], selected);
 			}
 
-			panes[selected].dispatchEvent(new CustomEvent('cbi-tab-active', {
-				detail: { tab: panes[selected].getAttribute('data-tab') }
-			}));
+			requestAnimationFrame(L.bind(function(pane) {
+				pane.dispatchEvent(new CustomEvent('cbi-tab-active', {
+					detail: { tab: pane.getAttribute('data-tab') }
+				}));
+			}, this, panes[selected]));
 
 			this.updateTabs(group);
 		},
